@@ -1,0 +1,42 @@
+# Sensitive files - NEVER commit
+.github_token
+*.token
+.env
+.env.*
+!.env.example
+credentials.json
+secrets.json
+*.key
+*.pem
+*.p12
+*.pfx
+id_rsa
+id_dsa
+
+# Logs and temporary files
+*.log
+*.pid
+*.pids
+*.tmp
+*.swp
+*.swo
+
+# Build artifacts
+node_modules/
+dist/
+build/
+.build/
+DerivedData/
+__pycache__/
+*.pyc
+*.pyo
+
+# IDE files
+.vscode/
+.idea/
+*.xcworkspace/
+*.xcodeproj/
+
+# System files
+.DS_Store
+Thumbs.db
